@@ -1,22 +1,106 @@
 <ion-view view-title="Reptiles">
 	<ion-content>
-		<ion-list >
-			<div ng-repeat="category in categories_german" >
-				<ion-item class="item-stable wrap icon"
-				ng-click="toggleCategory(category)"
-				ng-class="{active: isCategoryShown(category)}">
-				<i ng-class="isCategoryShown(category) ? 'ion-minus' : 'ion-plus'"></i>
-				&nbsp;
-				<i class="ion-{{category.icon}}"></i>
-				&nbsp;
-				{{category.name}}
-			</ion-item>
-			<ion-item class="item-accordion"
-			ng-repeat="contents in category.contents"
-			ng-show="isCategoryShown(category)">
-			{{contents}}
-		</ion-item>
-	</div>
-</ion-list>
-</ion-content>
+
+		<div class="list card">
+			<div class="item item-body">
+				<p>EASTERN REDBACK SALAMANDER (Plethodon cinereus)</p>
+				<img class="full-image" src="img/29.jpg">
+				<p>
+					Nesting Season - May - June<br>
+					No. Eggs - 4-17<br>
+					Egg Pattern - Singly, loose group on damp log or rock
+				</p>
+			</div>
+		</div>
+
+		<div class="list card">
+			<div class="item item-body">
+				<p>SPRING PEEPER (Hyla crucifer)</p>
+				<img class="full-image" src="img/30.jpg">
+				<p>
+					Nesting Season - Early April - Early June<br>
+					No. Eggs - 400-1,600<br>
+					Egg Pattern - Singly, in bottom debris
+				</p>
+			</div>
+		</div>
+
+		<div class="list card">
+			<div class="item item-body">
+				<p>BULLFROG (Rana catesbeiana)</p>
+				<img class="full-image" src="img/31.jpg">
+				<p>
+					Nesting Season - Mid June - July<br>
+					No. Eggs - 12,000-22,000<br>
+					Egg Pattern - Singly, in bottom debris
+				</p>
+			</div>
+		</div>
+
+		<div class="list card">
+			<div class="item item-body">
+				<p>COMMON SNAPPING TURTLE (Chelydra serpentina)</p>
+				<img class="full-image" src="img/32.jpg">
+				<p>
+					Nesting Season - Mid June - early July<br>
+					No. Eggs - 19-41<br>
+					Egg Pattern - Singly in one sand/gravel nest
+				</p>
+			</div>
+		</div>
+
+		<div class="list card">
+			<div class="item item-body">
+				<p>BLANDING'S TURTLE (Emydoidea blandingi)</p>
+				<img class="full-image" src="img/33.jpg">
+				<p>
+					Nesting Season - Early June - early July<br>
+					No. Eggs - 10-12<br>
+					Egg Pattern - Singly, in one sand/gravel beach nest
+				</p>
+			</div>
+		</div>
+
+		<div class="list card">
+			<div class="item item-body">
+				<p>GARTER SNAKE (Thamnophis sirtalis)</p>
+				<img class="full-image" src="img/34.jpg">
+				<p>
+					Nesting Season - Late April - May<br>
+					No. Eggs - 6-40<br>
+					Egg Pattern - Give birth to live young
+				</p>
+			</div>
+		</div>
+
+		<div class="list card">
+			<div class="item item-body">
+				<p>
+				Other reptiles and amphibians found in Nova Scotia include:<br><br>
+				Blue-spotted Salamander<br>
+				Yellow-spotted Salamander<br>
+				Red-spotted Newt<br>
+				Four-toed Salamander<br><br>
+				Eastern American Toad<br>
+				Green Frog<br>
+				Mink Frog<br>
+				Wood Frog<br>
+				Northern Leopard Frog<br>
+				Pickerel Frog<br><br>
+				Wood Turtle<br>
+				Eastern Painted Turtle<br>
+				Atlantic Ridley<br>
+				Atlantic Loggerhead<br>
+				Atlantic Leatherback<br><br>
+				Northern Redbelly Snake<br>
+				Northern Ribbon Snake<br>
+				Northern Ringneck Snake<br>
+				Eastern Smooth Green Snake<br>
+				</p>
+
+			</div>
+		</div>
+
+
+	</ion-content>
 </ion-view>
